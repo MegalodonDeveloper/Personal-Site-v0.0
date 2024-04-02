@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     padding: 0;
@@ -6,11 +5,12 @@ body{
     overflow-x: hidden;
 }
 /** Interface **/
+
 #Interface-top{
-    background: rgb(255, 255, 255);
+    background: #FAF7F0;
 }
 .nav{
-    background: #393E46;
+    background: #2C3333;
     width: 100%;
     height: 55px;
 }
@@ -45,11 +45,8 @@ body{
     margin-right: 18px;
     color: white;transition: all 0.6s;cursor: pointer;
 }
-.nav ul li a{
-    text-decoration: none;color: white;
-}
 .nav ul li:hover{
-    background:#faf7f044;
+    background:#faf7f05e;
 }
 .interface-part_i{
     padding: 4% 12%;
@@ -110,12 +107,6 @@ body{
     font-size: 20px;
     color: #04293A;
 }
-.Skills a{
-    text-decoration: none;color: white;
-}
-.Hire_Him a{
-    text-decoration: none;color: white;
-}
 .Hire_Him{
     display: inline-block;
     background: #04293A;
@@ -169,7 +160,7 @@ body{
     text-align: left;
 }
 .contr{
-    background: none;
+    background: #F6F6F6;
     width: 100%;
     height: 400px;
 }
@@ -212,7 +203,7 @@ body{
     background: none;text-align: center;
 }
 .for_intelligent{
-    background: none;
+    background: #F4EEFF;
     width: 80%;
     height: 230px;
 }
@@ -258,11 +249,8 @@ body{
 .fourd-part_end-container i{
     margin: 5px;margin-left: 5%;transition: all 0.6s;cursor: pointer;
 }
-.fourd-part_end-container a{
-    text-decoration: none;color: black;
-}
 .fourd-part_end-container i:hover{
-    color: #df0909;
+    color: #cf0f0f;
 }
 .fourd-part_end-container p{
     font-weight: 900;
@@ -305,8 +293,5 @@ input[type="email"]{
 }
 .container form button{
     background: #399e02;
-    padding: 7px 18px;border-radius: 5px; cursor: pointer; transition: all 0.6s; font-size: 15px;font-weight: 600;margin: 6px;color: white;border:2px solid #082032;
-}
-.container form button:hover{
-    background: #E84545;
+    padding: 5px 15px;font-size: 15px;font-weight: 600;margin: 6px;color: white;border:2px solid #082032;
 }
